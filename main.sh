@@ -7,7 +7,7 @@ git pull
 
 # Download latest CSV from spreadsheet datbase
 curl -sL "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1W4aMccgKRWVHDyqtaSIC8duUonV99Yfa2_sDc9nEehWwc6Mvdm-B6UxOi3F0s9mi3bx9sQinSaq_/pub?gid=474539051&single=true&output=csv" > public/data/all.csv
-
+pip install -r python-requirements.txt
 # all.json
 python3 csv2json_small.py public/data/all.csv public/data/
 
